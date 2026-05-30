@@ -1,10 +1,31 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Imperial_Script,
+  Abhaya_Libre,
+  Inter,
+} from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const abhayaLibre = Abhaya_Libre({
+  variable: "--font-abhaya-libre",
+  weight: "400",
+});
+
+const imperialScript = Imperial_Script({
+  variable: "--font-imperial-script",
+  weight: "400",
 });
 
 const geistMono = Geist_Mono({
@@ -25,7 +46,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${abhayaLibre.variable} ${imperialScript.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
