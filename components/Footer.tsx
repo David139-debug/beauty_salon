@@ -55,8 +55,9 @@ const Footer = () => {
       </article>
 
       <p className="text-[#808080] max-w-104.5 text-center">
-        Est tortor egestas sed feugiat elementum. Viverra nulla amet a ultrices
-        massa dui. Tortor est purus morbi vitae arcu suspendisse amet.
+        Profesionalna njega i vrhunski tretmani za ljepotu i opuštanje.
+        Prepustite se stručnim rukama i uživajte u trenutku posvećenom samo
+        vama.
       </p>
 
       <article className="flex gap-3 items-center">
