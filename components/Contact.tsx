@@ -89,7 +89,7 @@ const Contact = () => {
                 </select>
               </div>
 
-              <button className="col-span-1 sm:col-span-2 bg-[#6B0606] px-4 py-2 font-abhaya font-bold cursor-pointer text-2xl">
+              <button className="hover:bg-[hsl(0,89%,32%)] transition col-span-1 sm:col-span-2 bg-[#6B0606] px-4 py-2 font-abhaya font-bold cursor-pointer text-2xl">
                 Rezerviraj
               </button>
             </form>

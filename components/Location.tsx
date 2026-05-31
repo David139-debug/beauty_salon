@@ -27,7 +27,7 @@ const Location = () => {
             </h5>
             <div className="flex flex-col items-center">
               <p className="max-w-90.75 text-center text-3xl text-black font-inter">
-                19 North Road Piscataway, NJ 08854
+                Ulica Ruđera Boškovića 18 51000 Rijeka
               </p>
               <svg
                 className="-translate-y-22"
@@ -65,7 +65,7 @@ const Location = () => {
             </h5>
             <div className="flex flex-col items-center">
               <p className="max-w-90.75 text-center text-3xl text-black z-10 font-inter">
-                gamma@sbcglobal.net
+                beautysalon@gmail.com
               </p>
               <svg
                 className="-translate-y-15 z-0"
@@ -101,7 +101,7 @@ const Location = () => {
             </h5>
             <div className="flex flex-col items-center">
               <p className="max-w-90.75 text-center text-3xl text-black z-10 font-inter">
-                (246) 917-5787 <br /> (979) 353-9935
+                (+385) 95-987-2314
               </p>
               <svg
                 className="-translate-y-15 z-0"
