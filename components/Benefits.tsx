@@ -39,7 +39,7 @@ const Benefits = () => {
           </h3>
 
           <p className="text-black text-center max-w-60">
-            Eleifend arcu non lorem justo in tempus purus gravida.{" "}
+            Individualan pristup i vrhunska njega za svaki tip kože.
           </p>
         </section>
       </Opacity>
@@ -72,7 +72,7 @@ const Benefits = () => {
           </h3>
 
           <p className="text-black text-center max-w-60">
-            Eleifend arcu non lorem justo in tempus purus gravida.{" "}
+            Kvalitetni proizvodi za sigurne i učinkovite rezultate.
           </p>
         </section>
       </Opacity>
@@ -105,7 +105,7 @@ const Benefits = () => {
           </h3>
 
           <p className="text-black text-center max-w-60">
-            Eleifend arcu non lorem justo in tempus purus gravida.{" "}
+            Nježna njega inspirirana prirodom i zdravljem kože.
           </p>
         </section>
       </Opacity>

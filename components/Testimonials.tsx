@@ -18,8 +18,7 @@ const Testimonials = () => {
             </h2>
 
             <p className="max-w-2xl text-[#6B0606]/70">
-              Eleifend arcu non lorem justo in tempus purus gravida tortor
-              egestas sed feugiat elementum
+              Pogledajte iskustva naših zadovoljnih klijenata.
             </p>
           </div>
         </Slide>
@@ -55,16 +54,17 @@ const Testimonials = () => {
               <div className="flex flex-col gap-5 max-w-105">
                 <div className="flex gap-3 items-center">
                   <h5 className="text-[#6B0606] font-medium font-abhaya text-xl">
-                    Michaela Hayden
+                    Mihaela Marić
                   </h5>
 
-                  <span className="text-[#808080]">Happy client</span>
+                  <span className="text-[#808080]">Zadovoljna klijentica</span>
                 </div>
 
                 <p className="text-black">
-                  Quis euismod eu eleifend tristique. Rutrum eget turpis semper
-                  risus aliquam imperdiet amet. Quam bibendum ut eu sodales
-                  viverra adipiscing viverra lorem elit.
+                  "Izuzetno ugodno iskustvo od dolaska do samog tretmana.
+                  Osoblje je profesionalno, ljubazno i posvećeno svakom detalju.
+                  Salon je prekrasno uređen, a rezultat je nadmašio moja
+                  očekivanja. Svakako se vraćam ponovno!"
                 </p>
               </div>
 
@@ -74,7 +74,7 @@ const Testimonials = () => {
                   alt=""
                   width={80}
                   height={80}
-                  className="rounded-full"
+                  className="rounded-full sm:max-w-20 max-w-16"
                 />
 
                 <div className="flex items-center">
@@ -83,7 +83,7 @@ const Testimonials = () => {
                     alt=""
                     width={100}
                     height={100}
-                    className="rounded-full -translate-x-8"
+                    className="rounded-full -translate-x-8 sm:max-w-25 max-w-20"
                   />
 
                   <svg
@@ -92,6 +92,7 @@ const Testimonials = () => {
                     viewBox="0 0 140 8"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="sm:block hidden"
                   >
                     <line
                       x1="6"
@@ -107,7 +108,7 @@ const Testimonials = () => {
                 </div>
 
                 <Image
-                  src="/woman1.jpg"
+                  src="/woman3.jpg"
                   alt=""
                   width={80}
                   height={80}

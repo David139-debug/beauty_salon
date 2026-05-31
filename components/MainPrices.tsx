@@ -35,7 +35,7 @@ const MainPrices = () => {
               Tretmani i cijenik
             </h2>
             <p className="font-inter text-[#808080] text-center">
-              Velit in dui dictum arcu felis tempor in feugiat in mauris
+              Pregledajte našu ponudu tretmana i cijena.
             </p>
 
             <article className="flex flex-col gap-6">

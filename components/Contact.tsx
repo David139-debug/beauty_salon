@@ -22,8 +22,7 @@ const Contact = () => {
               Rezervirajte termin
             </h4>
             <p className="text-black">
-              Mi senectus ac ullamcorper sollicitudin volutpat sit a velit.
-              Purus scelerisque
+              Rezervirajte svoj termin jednostavno i brzo.
             </p>
 
             <form className="grid grid-cols-1 gap-5 sm:grid-cols-2">

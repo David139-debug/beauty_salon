@@ -14,9 +14,9 @@ const Styling = () => {
             Prava elegancija je biti jednako lijep iznutra i izvana
           </h2>
           <p className="text-[#bfbfbf] font-inter">
-            Eleifend arcu non lorem justo in tempus purus gravida. Est tortor
-            egestas sed feugiat elementum. Viverra nulla amet a ultrices massa
-            dui. Tortor est purus morbi vitae arcu suspendisse amet.
+            Vjerujemo da ljepota dolazi iz sklada njege, opuštanja i
+            samopouzdanja. Naši tretmani osmišljeni su kako bi naglasili ono
+            najbolje u vama i pružili vam iskustvo potpune njege.
           </p>
         </section>
       </Slide>
