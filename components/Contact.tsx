@@ -17,17 +17,19 @@ const Contact = () => {
             height={537}
           />
           <article className="flex flex-col gap-6">
-            <p className="text-[#6B0606] font-medium">KOZMETIČKI SALON</p>
+            <p className="text-[#6B0606] font-medium font-inter">
+              KOZMETIČKI SALON
+            </p>
             <h4 className="font-abhaya font-bold text-[40px] text-black">
               Rezervirajte termin
             </h4>
-            <p className="text-black">
+            <p className="text-black font-inter">
               Rezervirajte svoj termin jednostavno i brzo.
             </p>
 
             <form className="grid grid-cols-1 gap-5 sm:grid-cols-2">
               <div>
-                <label className="text-black block">Ime</label>
+                <label className="text-black block font-bold">Ime</label>
                 <input
                   className="px-4 py-2 border border-[#808080] w-full placeholder:text-black"
                   type="text"
@@ -35,7 +37,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="text-black block">Prezime</label>
+                <label className="text-black block font-bold">Prezime</label>
                 <input
                   className="px-4 py-2 border border-[#808080] w-full placeholder:text-black"
                   type="text"
@@ -43,7 +45,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="text-black block">Email</label>
+                <label className="text-black block font-bold">Email</label>
                 <input
                   className="px-4 py-2 border border-[#808080] w-full placeholder:text-black"
                   type="email"
@@ -51,7 +53,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="text-black block">Telefon</label>
+                <label className="text-black block font-bold">Telefon</label>
                 <input
                   className="px-4 py-2 border border-[#808080] w-full placeholder:text-black"
                   type="tel"
@@ -59,7 +61,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="text-black block">Datum rezervacije</label>
+                <label className="text-black block font-bold">
+                  Datum rezervacije
+                </label>
                 <input
                   className="px-4 py-2 text-black border border-[#808080] w-full placeholder:text-black"
                   type="date"
@@ -67,7 +71,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="text-black block">Vrijeme</label>
+                <label className="text-black block font-bold">Vrijeme</label>
                 <input
                   className="px-4 py-2 border text-black border-[#808080] w-full placeholder:text-black"
                   type="time"
@@ -75,7 +79,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="text-black block">Tretman</label>
+                <label className="text-black block font-bold">Tretman</label>
                 <select className="px-4 py-2 text-black border border-[#808080] w-full placeholder:text-black">
                   <option>Njega noktiju</option>
                   <option>Šišanje</option>

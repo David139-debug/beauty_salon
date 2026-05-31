@@ -34,11 +34,11 @@ const Benefits = () => {
             />
           </svg>
 
-          <h3 className="text-[#6B0606] text-xl text-center font-bold">
+          <h3 className="text-[#6B0606] text-xl text-center font-inter font-bold">
             Profesionalna njega
           </h3>
 
-          <p className="text-black text-center max-w-60">
+          <p className="text-black text-center max-w-60 font-inter">
             Individualan pristup i vrhunska njega za svaki tip kože.
           </p>
         </section>
@@ -67,11 +67,11 @@ const Benefits = () => {
             </defs>
           </svg>
 
-          <h3 className="text-[#6B0606] text-xl text-center font-bold">
+          <h3 className="text-[#6B0606] text-xl text-center font-bold font-inter">
             Profesionalni brendovih
           </h3>
 
-          <p className="text-black text-center max-w-60">
+          <p className="text-black text-center max-w-60 font-inter">
             Kvalitetni proizvodi za sigurne i učinkovite rezultate.
           </p>
         </section>
@@ -100,11 +100,11 @@ const Benefits = () => {
             </defs>
           </svg>
 
-          <h3 className="text-[#6B0606] text-xl text-center font-bold">
+          <h3 className="text-[#6B0606] text-xl text-center font-bold font-inter">
             Prirodna kozmetika
           </h3>
 
-          <p className="text-black text-center max-w-60">
+          <p className="text-black text-center max-w-60 font-inter">
             Nježna njega inspirirana prirodom i zdravljem kože.
           </p>
         </section>

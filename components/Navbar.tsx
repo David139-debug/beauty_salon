@@ -45,16 +45,25 @@ const Navbar = () => {
         </article>
 
         <article className="gap-9 items-center justify-self-center sm:flex hidden">
-          <a href="#services" className="text-black active:font-bold">
+          <a
+            href="#services"
+            className="text-black active:font-bold font-inter"
+          >
             Usluge
           </a>
-          <a href="#testemonials" className="text-black active:font-bold">
+          <a
+            href="#testemonials"
+            className="text-black active:font-bold font-inter"
+          >
             Recenzije
           </a>
-          <a href="#location" className="text-black active:font-bold">
+          <a
+            href="#location"
+            className="text-black active:font-bold font-inter"
+          >
             Lokacija
           </a>
-          <a href="#contact" className="text-black active:font-bold">
+          <a href="#contact" className="text-black active:font-bold font-inter">
             Kontakt
           </a>
         </article>

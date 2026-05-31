@@ -4,7 +4,7 @@ const Location = () => {
   return (
     <main id="location" className="flex flex-col gap-10 bg-white pt-20">
       <section className="flex flex-col gap-10">
-        <h3 className="text-[#6B0606] text-5xl font-abhaya text-center">
+        <h3 className="text-[#6B0606] font-abhaya text-5xl text-center font-bold">
           Posjetite nas
         </h3>
 
@@ -22,11 +22,11 @@ const Location = () => {
       <section className="grid grid-cols-1 min-[1411px]:grid-cols-3 items-center px-28">
         <Opacity>
           <article className="flex flex-col gap-10 items-center">
-            <h5 className="text-[#6B0606] text-3xl font-abhaya font-bold">
+            <h5 className="text-[#6B0606] text-3xl font-inter font-bold">
               Adresa
             </h5>
             <div className="flex flex-col items-center">
-              <p className="max-w-90.75 text-center text-3xl text-black">
+              <p className="max-w-90.75 text-center text-3xl text-black font-inter">
                 19 North Road Piscataway, NJ 08854
               </p>
               <svg
@@ -60,11 +60,11 @@ const Location = () => {
 
         <Opacity>
           <article className="flex flex-col gap-10 items-center">
-            <h5 className="text-[#6B0606] text-3xl font-abhaya font-bold">
+            <h5 className="text-[#6B0606] text-3xl font-inter font-bold">
               Email
             </h5>
             <div className="flex flex-col items-center">
-              <p className="max-w-90.75 text-center text-3xl text-black z-10">
+              <p className="max-w-90.75 text-center text-3xl text-black z-10 font-inter">
                 gamma@sbcglobal.net
               </p>
               <svg
@@ -96,11 +96,11 @@ const Location = () => {
 
         <Opacity>
           <article className="flex flex-col gap-10 items-center">
-            <h5 className="text-[#6B0606] text-3xl font-abhaya font-bold">
+            <h5 className="text-[#6B0606] text-3xl font-inter font-bold">
               Telefon
             </h5>
             <div className="flex flex-col items-center">
-              <p className="max-w-90.75 text-center text-3xl text-black z-10">
+              <p className="max-w-90.75 text-center text-3xl text-black z-10 font-inter">
                 (246) 917-5787 <br /> (979) 353-9935
               </p>
               <svg

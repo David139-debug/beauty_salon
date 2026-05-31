@@ -17,7 +17,7 @@ const Testimonials = () => {
               Recenzije
             </h2>
 
-            <p className="max-w-2xl text-[#6B0606]/70">
+            <p className="max-w-2xl text-[#808080]/70 font-inter">
               Pogledajte iskustva naših zadovoljnih klijenata.
             </p>
           </div>
@@ -57,10 +57,12 @@ const Testimonials = () => {
                     Mihaela Marić
                   </h5>
 
-                  <span className="text-[#808080]">Zadovoljna klijentica</span>
+                  <span className="text-[#808080] font-inter">
+                    Zadovoljna klijentica
+                  </span>
                 </div>
 
-                <p className="text-black">
+                <p className="text-black font-inter">
                   "Izuzetno ugodno iskustvo od dolaska do samog tretmana.
                   Osoblje je profesionalno, ljubazno i posvećeno svakom detalju.
                   Salon je prekrasno uređen, a rezultat je nadmašio moja
